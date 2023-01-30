@@ -1,29 +1,8 @@
-<!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
-<!-- tags  variables -->
+{% extends 'base.html' %}
+{% block title %} 
+    home
+{% endblock %}
 
-<!-- {% if num1 > 0 %}
-    <h2>positive number</h2>
-{%elif num1 < 0%}
-    <h2>negative number</h2>
-{%elif num1 == 0%}
-<h2>the number is zero</h2>
-{% endif %} -->
-
-<!-- loop -->
-{% for x in num1 %}
-    <h2>{{x}}
-    <h3> hiii
-{% endfor %}
-
-    
-</body>
-</html>
+{% block content %}
+ <h1>  from home page </h1>
+{% endblock %}
