@@ -7,3 +7,6 @@ cd projname
 
 python3 manage.py startapp appname
 variables and tag
+
+req file creation
+ pip freez > requirements.txt
