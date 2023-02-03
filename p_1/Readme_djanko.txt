@@ -1,7 +1,9 @@
-{{}} {%%}
-templtes inheritance 
-admin interface 
- python3 manage.py nakemigrations 
- 2 python3 manage.py migrate 
- adminpy  adminpy  
- reception abcd@1234  
+#project creation
+
+djanko-admin projectstart projname
+
+# app creation
+cd projname
+
+python3 manage.py startapp appname
+variables and tag
